@@ -1,0 +1,6 @@
+Schwerter Schaden:
+15
+20
+200
+500
+10

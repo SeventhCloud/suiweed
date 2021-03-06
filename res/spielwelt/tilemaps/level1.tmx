@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" nextobjectid="14">
+ <tileset firstgid="1" name="house1" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="25" columns="5">
+  <image source="../tilesets/house1.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="26" name="terrain" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="961" columns="31">
+  <image source="../tilesets/terrain.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="987" name="interior" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../tilesets/interior.png" width="512" height="512"/>
+ </tileset>
+ <layer name="ground" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzjZmFg4B7Fo3gUDxgGAEhVDTA=
+  </data>
+ </layer>
+ <layer name="onGround" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJy7y8zAcI8MfB+I3wIxOeD9AOr9hwfDAC55Yu2FqXvJTLqbYep+UqCXk4V8vTAwqpd4ANL7l0DawoX/AzEA1uJJWQ==
+  </data>
+ </layer>
+ <layer name="top" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAeMGSB0PJAWg6IZaE0Mh7qwBvoBx8g9gViv2Hgn1Ew8AAAf84CZg==
+  </data>
+ </layer>
+ <layer name="onTop" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFfCwQzA+leVkQYjCMD8gRkB8MwBroRhsgtgViuyHg3lEwvAEAJM8Bxw==
+  </data>
+ </layer>
+ <objectgroup name="block">
+  <object id="1" x="0" y="8" width="8" height="472"/>
+  <object id="4" x="0" y="464" width="480" height="16"/>
+  <object id="6" x="472" y="0" width="8" height="480"/>
+  <object id="7" x="320" y="160" width="8" height="256"/>
+  <object id="9" x="288" y="144" width="192" height="16"/>
+  <object id="12" x="0" y="144" width="224" height="16"/>
+  <object id="13" x="0" y="0" width="480" height="16"/>
+ </objectgroup>
+</map>

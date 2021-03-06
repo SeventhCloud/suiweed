@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="35" tilewidth="32" tileheight="32" nextobjectid="53">
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="../tilesets/terrain.png" width="1024" height="1024"/>
+  <tile id="187">
+   <animation>
+    <frame tileid="187" duration="300"/>
+    <frame tileid="189" duration="300"/>
+   </animation>
+  </tile>
+  <tile id="227">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="4" width="32" height="28"/>
+   </objectgroup>
+  </tile>
+  <tile id="388">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="419">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="420">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="515">
+   <objectgroup draworder="index">
+    <object id="0" x="16" y="0" width="16" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="516">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="32" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="517">
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="16" height="32"/>
+   </objectgroup>
+  </tile>
+  <tile id="606">
+   <objectgroup draworder="index">
+    <object id="0" x="9" y="0">
+     <polygon points="0,0 8,0 21,7 22,19 22,25 17,30 11,31 7,32 -9,26 -6,13 -5,5"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="703">
+   <objectgroup draworder="index">
+    <object id="0" x="5" y="0">
+     <polygon points="0,0 -1,21 5,30 15,30 21,22 22,13 20,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="ground" width="50" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8XYUY7bMAwE0FWP4ptZtnLM/vUovUcbIAM8c9XUu826AYTYsiyRw+GI1tLe3paL2/a77Y+20rc9rtN/vx+Pvvt95/72GJfrq33Iujd80Lb+sL9j5z4Zuz6a81zddtYfYDuwr+NXroN7Z46MeaV9Y9J3/83GBcPwJ7aJe/Uvdm/gEB/P2PJVMQn/48etHXmTHFraMafyPL6/Oh7PmriNcp8cly/j0RIP82Arc12VH2tZK1irQVt7ny/2pZk/vR117uqWWMSWmW/Jm2Cfa/EY7e+c+so8CdflUnzT9pXrtMH4mW9XtrW08CW+mffpl2/yMf+fsePHiTF1v/KZeSzPzeP0x271NrYnRvtk/dq+f3vffhZbzzRtdp9YShzMn6oD5tJg3jN23O3WFv34bJP7G9exKZhbv3j/pz3nGfb6kTH/6oeYart1VsYkPsYrHBvtvO7e7R7t9X6YO5UjxmfnWeyXe9Zdn82Pf/UhOMef6NLC/0a/Oh0/Z7y6slU+aJf6KtYrz3rB4iq7raV6O/LCGtBrse/4Ysx6e8+rq+KjNlkvxebY4vdGcsV6Jn1n9o9XtVGuw+toUq3H1bLYnXF573/4UeMRrqhD1rGxM3FyjPmjD3LuqphUm60He7E5z5cyNj72D65d+f2Rd3xmnu78qz+dtfZ25JM5FT0Wn7O41m+A0c7rn/nru9a05rqY1zX2Sd/ZM6BnHJyd0zwbF7zF9lae1T3c/vqeuVSx6axtbq28M8tJ1wlPrOGDr2vUd8yLek63taPNS3mnM1/FT720vlMD3QvUfPdgz3PcB93PxSRrzWpFdUyMtbvWz1nfOkgdWdsRV+eQV2rSVubOvPEjfqsJnf9gk/EZU2sv53O/9busfkeolXv5V3M8J/B8YW3HmNS9zrMtcTJXxFVbxECdmWm/tUNn3RqTW5mj1rDqUT2XqOdDN57Hp/gjd81Xx8xqTvmufs3OmmuM1UO/l+qZljbXswC1QX3aWLPWNOK0lbU711Xjlsk75pHXlQeeR8T+GhvxNc88lxjtiPnejrFUZxI//TK3xFY9krdiKB/UsVl+ywPzrvpsvDxLE2v1RO6uZV31X07VbynrGvcQeWNO2jf7ppfLVbPq/mcuWZNoS9ateb2UedQHtekX5pFoalgbAAA=
+  </data>
+ </layer>
+ <layer name="onGround" width="50" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2W3Q3CMAyEq25GWQOQoGtQJmAEwiS8dBQkBun1iR8FtcIhPqf+pHtrq7NzcV1V5dIneOb+43cZ2UBbaKdtRMgRukEnbSNfmNPnMUMXKEDXHKYmiOWcvc9zYerzUpHMzJzzNnYPcrzrOFNY2Dse2gac5LDPtaXttec6gxkBsX2LfXaxZ/wVS15TwZqff50Fa72O4zxh/xeXzApqoLW2ESF76AC12kaElFBHV7/X0Rm93+GjjmC0jhGLuRoAg9y7CFgbAAA=
+  </data>
+ </layer>
+ <layer name="top" width="50" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WsQ2AIBCFYSDRSdzLZWQPC93DwkmcRDuJgYLEcNzl/5LXUL0LBHAOAKDVHKQb2Lb4cjSJT98tE21Gg+f9lC7QQO6eStfWTvd1qux1CM+x/3hXXf5Na0Mop5bkHECv+DsCOlh5w6zMAQDA1w2aNc5WWBsAAA==
+  </data>
+ </layer>
+ <layer name="onTop" width="50" height="35">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3P0Q1AUBQE0fvKRCWoBJWgEjRjeiC4MieZ/90ISZIkPaUqETU15e0l17Ts76hP/mNg/0hT8h8z+xda/fEJf/mxsX+nI/kPSZIkSbrTCayAHvtYGwAA
+  </data>
+ </layer>
+ <objectgroup name="block">
+  <object id="33" x="447" y="135">
+   <polygon points="0,0 -23,24 -18,51 -22,54 -19,61 -10,73 39,78 59,50 50,11 37,1"/>
+  </object>
+  <object id="34" x="241" y="543">
+   <polygon points="0,0 -1,11 4,21 2,40 23,44 37,40 55,44 62,28 58,3"/>
+  </object>
+  <object id="37" x="288" y="1060">
+   <polygon points="0,0 -24,24 -28,3 -11,-23"/>
+  </object>
+  <object id="38" x="162" y="1062">
+   <polygon points="0,0 -24,24 -28,3 -11,-23"/>
+  </object>
+  <object id="44" x="874" y="544" width="11" height="32"/>
+  <object id="48" x="332" y="865" width="8" height="32"/>
+ </objectgroup>
+ <objectgroup name="objects">
+  <object id="35" name="Hope" type="Charakter" x="512" y="256" width="32" height="64"/>
+  <object id="39" name="Weg nach Indien" type="Teleport" x="166" y="1034" width="84" height="86">
+   <properties>
+    <property name="Map" value="tilemap2.tmx"/>
+    <property name="Range" value="50"/>
+    <property name="TriggerEvent" value="ENTER"/>
+    <property name="X" value="200"/>
+    <property name="Y" value="240"/>
+   </properties>
+  </object>
+  <object id="42" name="Sound" type="LocatedSound" x="557" y="704" width="223" height="251">
+   <properties>
+    <property name="Sound" value="res/spielwelt/audio/kebab.ogg"/>
+    <property name="TriggerEvent" value="INIT"/>
+   </properties>
+  </object>
+  <object id="46" name="Zeile 5 Dialogfenster" type="Dialogzeile" x="841" y="501" width="79" height="62">
+   <properties>
+    <property name="Line" value="5"/>
+    <property name="Range" value="32"/>
+    <property name="TriggerEvent" value="INTERACT"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="50" name="Zeile 4 Dialogfenster" type="Dialogzeile" x="296" y="824" width="79" height="62">
+   <properties>
+    <property name="Line" value="4"/>
+    <property name="Range" value="32"/>
+    <property name="TriggerEvent" value="INTERACT"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="51" name="BöserDude" type="Gegner" x="960" y="159" width="33" height="66"/>
+  <object id="52" name="BöserDude2" type="Gegner" x="1281" y="323" width="31" height="61"/>
+ </objectgroup>
+</map>

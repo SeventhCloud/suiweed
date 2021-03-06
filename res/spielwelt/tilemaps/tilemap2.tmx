@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" nextobjectid="2">
+ <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="../tilesets/terrain.png" width="1024" height="1024"/>
+  <tile id="671">
+   <objectgroup draworder="index">
+    <object id="0" x="5" y="31">
+     <polygon points="0,1 3,-17 11,-28 18,-17 20,1"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="703">
+   <objectgroup draworder="index">
+    <object id="0" x="5" y="0" width="21" height="30"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="ground" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJyF1WGuwyAMA2DO2psBF32btEp+30z3A7WlSUhiO+wxxnqt+VrX5/2KvffanzU/+zv2c28T6147Ym7i3z4rYs14v8LO/PL8FWelfdqmzSa+ObX8r3Lm/T3xn4ezNuet8T9P1x6959mf7N0irnjY95ZHnpn/xVubje0u8cS02Z1iyY11iPeEXftuecqD+SPeif/ivg422f+GVfqffMz7VEf7b/y0nfEtBld8Z1z7q0bSXjwzLzXW+LSI1fj+lKNnJd7m/aThxEs/eyWf1NoklrWpJesUw6zP/J3DzbfNXzVmjIZN5ts0rWace+bRZsvijKYR+ywH8l/Te8bSJvsnpvbI3rS4vicmi/eseY9v/GZZ4pr5Np0559RWw0/bdk8mnzfvYmnf3ZcT1mBOTXd5pjy2D3t812W/rDN91cVVYjVdatNmgXNUPcjXVl/m3+o8cbTNT/E68a5pzxnhTBbL/Od9pL//5Il8SB1nf9WO3DxhY0/kRLtzGiZNB2q21Sc//M7eth43XNsdtksc58UdJzWbe9nzfLaZpV/j9hzfeMpV76A2nzNGxv7lYx5ySgysX822O7vh5xmJV7tf1JiYi/cVvsmTpovE376dcJzE94ynfE65rOLrXdHuqDaD1cjpHm78to7cT+xaHU2LG//3+x9u/UPb
+  </data>
+ </layer>
+ <layer name="onGround" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYKANOAjEiowMDEpArMxII0sIAGT7Hw6A/Y5Ae52A2JlM/y9goo1aYsEBEswkpJYW7iMFkOKXUTBwgNh0Qqv0RGw6GU1PQwuMlj+jYDiA0XRMGhjK4TWU3T4KRsEoGPwAAMsxD8I=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" name="Nach Grasland" type="Teleport" x="732" y="2" width="104" height="71">
+   <properties>
+    <property name="Map" value="tilemap1.tmx"/>
+    <property name="TriggerEvent" value="ENTER"/>
+    <property name="X" value="100"/>
+    <property name="Y" value="100"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
